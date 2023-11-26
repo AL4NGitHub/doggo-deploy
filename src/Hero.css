@@ -1,0 +1,150 @@
+.box {
+  margin-top: 5vh;
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 85%;
+  height: 100%;
+  display: grid;
+  place-items: start center;
+}
+
+header {
+  width: 100%;
+  padding: 3rem 2rem;
+  background: var(--dark-element);
+  border-radius: 1rem;
+  box-shadow: -0.5rem 0.5rem 1rem 0.5rem var(--shadow);
+}
+
+header h2 {
+  font-size: 2rem;
+  letter-spacing: calc(1.5rem * -0.02);
+}
+
+header p {
+  font-size: 1.2rem;
+  line-height: calc(1.2rem * 1.6);
+  text-align: justify;
+  color: var(--light-element);
+}
+
+.cta-box {
+  width: 100%;
+  grid-row: 2;
+  background: var(--dark-element);
+  border-radius: 1rem;
+  box-shadow: -0.5rem 0.5rem 1rem 0.5rem var(--shadow);
+  padding: 3rem 2rem;
+}
+
+.cta-box h3 {
+  font-size: 1.5rem;
+  letter-spacing: calc(1.5rem * -0.02);
+}
+
+.cta-box p {
+  font-size: var(--light-element);
+  font-size: 1.2rem;
+  line-height: calc(1.2rem * 1.6);
+  text-align: justify;
+}
+
+.btn {
+  all: unset;
+  width: 35%;
+  padding: 0.8rem 0;
+  background: var(--purple);
+  color: var(--font);
+  text-align: center;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  box-shadow: -0.3rem 0.3rem 0.5rem 0.4rem var(--shadow);
+  cursor: pointer;
+  border: 0.2rem solid transparent;
+  transition: 0.1s filter ease-in, 0.1s border ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:focus {
+  border: 0.2rem solid rgba(255, 255, 255, 0.5);
+}
+
+.btn:active {
+  border: 0.2rem solid rgba(255, 255, 255, 0.5);
+}
+
+.btn:hover {
+  filter: brightness(1.1);
+}
+
+.call-ic {
+  font-variation-settings: "FILL" 1, "wght" 600, "GRAD" 0, "opsz" 24;
+  font-size: 1.2rem;
+  margin-right: 0.3vw;
+}
+
+.imgs {
+  margin-top: 5vh;
+  grid-column: 2;
+  grid-row: 1;
+  width: 40vw;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  place-items: center;
+  padding-right: 15%;
+}
+
+.floor-one {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  gap: 2rem;
+}
+
+.floor-second {
+  grid-row: 2;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 2fr 3fr;
+  gap: 2rem;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0.5rem 0 1rem 1rem var(--shadow);
+}
+
+.img:nth-child(1) {
+  background-image: url(/img/one.jpg);
+}
+
+.img:nth-child(2) {
+  background-image: url(/img/two.jpg);
+}
+
+.img:nth-child(3) {
+  background-image: url(/img/three.jpg);
+}
+
+.floor-second .img:nth-child(1) {
+  background-image: url(/img/four.jpg);
+}
+
+.floor-second .img:nth-child(2) {
+  background-image: url(/img/five.jpg);
+}
+
+.floor-second .img:nth-child(3) {
+  background-image: url(/img/six.jpg);
+}

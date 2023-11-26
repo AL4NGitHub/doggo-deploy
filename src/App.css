@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-rows: 8vh auto;
+  place-items: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+}
