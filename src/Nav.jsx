@@ -32,7 +32,7 @@ export function Nav() {
       <nav>
         <h1>Logo</h1>
         <div className="links">
-          <a href="#">Home</a>
+          <a href="../index.html">Home</a>
           <a href="#">Our Services</a>
           <a href="#">About us</a>
           <a href="#">Contact us</a>
